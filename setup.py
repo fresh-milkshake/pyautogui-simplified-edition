@@ -2,10 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyautogui_simplified_edition',
-    version='0.1.0',
+    version='1.0a',
     description='A simplified edition of the PyAutoGUI library',
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='immacool',
     url='https://github.com/immacool/pyautogui-simplified-edition',
     packages=find_packages(),
     install_requires=[

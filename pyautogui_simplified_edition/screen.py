@@ -45,7 +45,7 @@ def wait_until_not_found(image: str,
 
 
 def find_in(image: str,
-            region: Box = None,
+            region: Box | None = None,
             grayscale: bool = False,
             confidence: float = 0.9,
             **kwargs) -> Tuple[int, int]:
@@ -143,7 +143,7 @@ def find_any_center(images: List[str],
     raise ValueError(f"None of the images {images} found.")
 
 
-def take(image: str, region: Box = None, **kwargs) -> None:
+def take(image: str, region: Box | None = None, **kwargs) -> None:
     """
     Take a screenshot of the region.
     :param image: Image to be saved.

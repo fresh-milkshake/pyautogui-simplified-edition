@@ -1,0 +1,6 @@
+tests
+.pypirc
+*_test.py
+test_*.py
+dist
+*.egg-info
