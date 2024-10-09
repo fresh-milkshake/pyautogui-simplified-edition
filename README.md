@@ -1,6 +1,6 @@
 # PyAutoGUI Simplified Edition
 
-This is a simplified edition of the (PyAutoGUI)[https://pypi.org/project/PyAutoGUI/] library that provides easy-to-use functions for screen automation.
+This is a simplified edition of the [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) library that provides easy-to-use functions for screen automation.
 
 PyAutoGUI is a cross-platform GUI automation Python module that can perform many functions, including mouse and keyboard control, taking screenshots, and locating images on the screen.
 
